@@ -1,0 +1,15 @@
+<div class="container" ng-controller="logoutController">
+	<ul class="nav nav-pills pull-right">
+		<li role="presentation"><a href="#/">Home</a></li>
+		<li role="presentation"><a href="#/about">About</a></li>
+		<li role="presentation"><a href="#/one">One Page</a></li>
+		<li role="presentation"><a href="#/two">Two Page</a></li>
+		<li role="presentation"><a href="#/login">Login</a></li>
+		<li role="presentation"><a href="#/register">Signup</a></li>
+		<li role="presentation" ng-show=""><a ng-click='logout()' class="btn btn-default">Logout</a></li>
+		<!-- <li role="presentation" ng-hide="authenticated"><a href="signup">Sign Up</a></li>
+		<li role="presentation" ng-hide="authenticated"><a href="signin">Sign In</a></li>
+		<li role="presentation" ng-show="authenticated"><a href="#" ng-click="signout()">Sign Out</a></li>
+		<li role="presentation" ng-show="authenticated">Welcome {{current_user}}</li> -->
+	</ul>
+</div>
